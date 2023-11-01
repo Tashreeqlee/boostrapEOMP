@@ -7,6 +7,22 @@
 }
 body {
     background: #3f8ac5;
+    font-family: 'League Spartan', sans-serif;
+}
+#animation{
+    position: relative;
+    animation: animated-img1 5s linear;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes animated-img1 {
+    0%   {background: transparent; down: 0px; top: 0px;}
+    25%  {background: transparent; up: 300px; top: 100px;}
+    100% {background:transparent; down: 0px; top: 0px;}
+  }
+
+.nav-item {
+    font-weight: bold !important;
 }
 .heading {
     text-align: start;
@@ -40,7 +56,7 @@ img[alt="logo"] {
 }
 #about img {
     width: auto;
-    height: 25rem;
+    height: 30rem;
     
 }
 .card {
