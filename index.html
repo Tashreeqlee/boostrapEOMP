@@ -20,32 +20,32 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-xxl navbar-dark bg-primary-subtle fixed-top">
-        <div class="container">
+        <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">
             <img src="https://i.postimg.cc/DfG3tyv0/Screenshot-2023-10-30-124339.png" href="./index.html" loading="lazy" class="img-fluid img-thumbnail" alt="logo">
           </a>
-          <button class="navbar-toggler bg-gradient" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active text-dark" aria-current="page" href="#landing-page">HOME</a>
+                <a class="nav-link text-dark" href="#home">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-dark" href="#about-page">ABOUT ME</a>
+                <a class="nav-link text-dark" href="#about">ABOUT ME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-dark" href="#projects-page">PROJECTS</a>
+                <a class="nav-link text-dark" href="#projects">PROJECTS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-dark" href="#education-page">EDUCATION</a>
+                <a class="nav-link text-dark" href="#education">EDUCATION</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-dark" href="#testimonials-page">TESTIMONIALS</a>
+                <a class="nav-link text-dark" href="#testimonials">TESTIMONIALS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-dark" href="#contact-page">CONTACT ME</a>
+                <a class="nav-link text-dark" href="#contact">CONTACT ME</a>
               </li>
             </ul>
           </div>
@@ -54,7 +54,7 @@
       <!-- Home -->
 
       <main class="container" id="container">
-        <section class="container-fluid" id="HOME">
+        <section class="container-fluid" id="home">
           <div class="row main-section">
             <div class="col-md-6">
               <h3>Hi I'm</h3>
@@ -63,7 +63,7 @@
             </div>
             <div class="col-md-6">
                 <div id="animation">
-                    <img src="https://i.postimg.cc/GhW9PbFG/IMG-6945-1.jpg" class="animated bounce infinite" alt="Tashreeq img" id="animated-img1">
+                    <img src="https://i.postimg.cc/GhW9PbFG/IMG-6945-1.jpg" class="animated bounce infinite rounded-pill" alt="Tashreeq img" id="animated-img1">
                 </div>
             </div>
           </div>
@@ -71,137 +71,256 @@
       
       
       <!-- About Section -->
-      <section class="container" id="about">
+      <section class="container mt-5 pt-5" id="about">
         <div class="row">
-          <div class="col-6">
-            <img src="https://i.postimg.cc/XJx2qkfb/IMG-1956.jpg" class="img-fluid rounded-5" alt="ME">
+            <div class="col-6">
+                <img src="https://i.postimg.cc/XJx2qkfb/IMG-1956.jpg" class="img-fluid rounded-5" alt="ME">
+            </div>
+            <div class="col-6 pt-5 pb-5 text-dark">
+                <h1 class="text-warning-emphasis">About Me</h1>
+                <h3 class="text-warning">More about me</h3>
+                <p>I am Tashreeq Lee all the way from Crawford, Cape town. I am an aspiring developer entering this journey and getting ready to become the best version of myself in this field.
+                    The journey in the tech industry started at a young age where breaking computers just to rebuild it again was one of the things i looked forward to doing most days.
+                    I love to enhance and better every environment I enter and am interested in improving myself in coding everyday.
+                </p>
+                <button class="btn btn-outline-danger">Learn More..</button>
+            </div>
         </div>
-        <div class="col-6 pt-5 pb-5 text-dark">
-          <h1 class="text-warning-emphasis">About Me</h1>
-          <h3 class="text-warning">More about me</h3>
-          <p>I am Tashreeq Lee all the way from Crawford, Cape town. I am an aspiring developer entering this journey and getting ready to become the best version of myself in this field.
-            The journey in the tech industry started at a young age where breaking computers just to rebuild it again was one of the things i looked forward to doing most days.
-            
-            I love to enhance and better every environment I enter and am interested in improving myself in coding everyday.
-          </p>
-          <button class="btn btn-outline-danger">Learn More..</button>
-        </div>
-      </div>
     </section>
     <!-- Projects Section -->
-    <section class="container mt-5 pt-5" id="PROJECTS">
-      <h1 class="heading1 text-center text-warning">MY PROJECTS</h1>
-      <div class="row ps-5 ms-5">
-        <div class="col-md-4 mb-5">
-          <div class="card" style="width: 18rem;">
-            <img class="img-fluid card-img-top" src="https://i.postimg.cc/m2MFWjTt/Screenshot-2023-11-01-091007.png" alt="Calculator" style="height: 15rem;">
-            <div class="card-body">
-              <h5 class="card-title text-warning">Calculator</h5>
-              <p class="card-text">Calculator made with HTML and CSS.
-              </p>
-              <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
-                <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457"/>
-              </svg>  Github</a>
-              <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
-                <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-                <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
-              </svg>Vercel</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 mb-5">
-      <div class="card" style="width: 18rem;">
-        <img class="img-fluid card-img-top" src="" alt="Keyboard" style="height: 15rem;">
-        <div class="card-body">
-          <h5 class="card-title text-warning">Keyboard</h5>
-          <p class="card-text">Responsive Keyboard made with HTML and CSS.
-          </p>
-          <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
-            <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457"/>
-          </svg>  Github</a>
-          <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
-            <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-            <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
-          </svg>Vercel</a>
-    </div>
-  </div>
-</div>
-<div class="col-md-4 mb-5">
-          <div class="card" style="width: 18rem;">
-            <img class="img-fluid card-img-top" src="" alt="E-commerce" style="height: 15rem;">
-            <div class="card-body">
-              <h5 class="card-title text-warning">E-commerce Website</h5>
-              <p class="card-text">E-commerce website made with HTML and CSS.
-              </p>
-              <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
-                <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457"/>
-              </svg>  Github</a>
-              <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
-                <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-                <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
-              </svg>Vercel</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4 mb-5">
-      <div class="card" style="width: 18rem;">
-        <img class="img-fluid card-img-top" src="https://i.postimg.cc/J4nWHRpJ/Screenshot-2023-11-01-124728.png" alt="project 1" style="height: 15rem;">
-        <div class="card-body">
-          <h5 class="card-title text-warning">To-Do List</h5>
-          <p class="card-text">To-Do List with task layout using HTML and CSS
-          </p>
-          <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
-            <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457"/>
-          </svg>  Github</a>
-          <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
-            <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-            <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
-          </svg>Vercel</a>
-    </div>
-  </div>
-</div>
-<div class="col-md-4 mb-5">
-          <div class="card" style="width: 18rem;">
-            <img class="img-fluid card-img-top" src="" alt="project 1" style="height: 15rem;">
-            <div class="card-body">
-              <h5 class="card-title text-warning">Netflix Clone</h5>
-              <p class="card-text">Netflix website clone using HTML and CSS
-              </p>
-              <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
-                <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457"/>
-              </svg>  Github</a>
-              <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
-                <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-                <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
-              </svg>Vercel</a>
+    <section class="container mt-5 pt-5" id="projects">
+        <h1 class="text-center py-5 text-warning">Projects</h1>
+        <div class="row ps-5 ms-5">
+            <div class="col-md-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="img-fluid card-img-top" src="https://i.postimg.cc/m2MFWjTt/Screenshot-2023-11-01-091007.png" alt="Calculator" style="height: 15rem;">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Calculator</h5>
+                        <p class="card-text">Calculator made with HTML and CSS.
+                        </p>
+                        <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+                            <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457"/>
+                        </svg>  Github</a>
+                        <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                            <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+                            <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+                        </svg>Vercel</a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="col-md-4 mb-5">
-        <div class="card" style="width: 18rem;">
-            <img class="img-fluid card-img-top" src="" alt="e-commerce" style="height: 15rem;">
-            <div class="card-body">
-                <h5 class="card-title text-warning">E-commerce Website</h5>
-                <p class="card-text">E-commerce website made with HTML and CSS.</p>
-                <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
-                    <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457"/>
-                  </svg>  Github</a>
-                  <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
-                    <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
-                    <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
-                  </svg>Vercel</a>
+            <div class="col-md-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="img-fluid card-img-top" src="https://i.postimg.cc/cHfmMztP/Screenshot-2023-11-02-154851.png" alt="Keyboard" style="height: 15rem;">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Keyboard</h5>
+                        <p class="card-text">Responsive Keyboard made with HTML and CSS.
+                        </p>
+                        <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+                            <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457"/>
+                        </svg>  Github</a>
+                        <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                            <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+                            <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+                        </svg>Vercel</a>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</section>
+            <div class="col-md-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="img-fluid card-img-top" src="https://i.postimg.cc/3J61wkHq/Screenshot-2023-11-01-085452.png" alt="E-commerce" style="height: 15rem;">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">E-commerce Website</h5>
+                        <p class="card-text">E-commerce website made with HTML and CSS.
+                        </p>
+                        <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+                            <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457"/>
+                        </svg>  Github</a>
+                        <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                            <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+                            <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+                        </svg>Vercel</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="img-fluid card-img-top" src="https://i.postimg.cc/J4nWHRpJ/Screenshot-2023-11-01-124728.png" alt="project 1" style="height: 15rem;">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">To-Do List</h5>
+                        <p class="card-text">To-Do List with task layout using HTML and CSS
+                        </p>
+                        <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+                            <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457"/>
+                        </svg>  Github</a>
+                        <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                            <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+                            <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+                        </svg>Vercel</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="img-fluid card-img-top" src="" alt="project 1" style="height: 15rem;">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">Netflix Clone</h5>
+                        <p class="card-text">Netflix website clone using HTML and CSS
+                        </p>
+                        <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+                            <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457"/>
+                        </svg>  Github</a>
+                        <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                            <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+                            <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+                        </svg>Vercel</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5">
+                <div class="card" style="width: 18rem;">
+                    <img class="img-fluid card-img-top" src="" alt="e-commerce" style="height: 15rem;">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning">E-commerce Website</h5>
+                        <p class="card-text">E-commerce website made with HTML and CSS.</p>
+                        <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+                            <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457"/>
+                        </svg>  Github</a>
+                        <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                            <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+                            <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+                        </svg>Vercel</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<!--Education page-->
-<section class="container">
-</section>
+        <!--Education page-->
+        <section class="container mt-5 pt-5" id="education">
+            <div class="container">
+              <div class="py-5 text-center">
+                  <h1 class="text-warning-emphasis">Education</h1>
+              </div>
+              <div class="row ps-5 ms-5">
+                  <div class="col-md-4 mb-5">
+                      <div class="card" style="width: 18rem;">
+                          <div class="card-body">
+                              <h5 class="card-title text-center text-warning py-2">Alexander Sinton High School</h5>
+                              <p>I completed Matric in 2020 and went on to pass with a Bachelors Degree.</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4 mb-5">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-warning py-2">Life Choices Academy</h5>
+                            <p>I started my coding journey at Life Choices Academy September 2023.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                  <div class="card" style="width: 18rem;">
+                      <div class="card-body">
+                          <h5 class="card-title text-center text-warning py-2">Free Code Camp</h5>
+                          <p>I studied coding on Free Code Camp from 2020 covid till 2022.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="skills">
+                <div class="py-5 text-center">
+                    <h1 class="text-warning-emphasis">Skills</h1>
+                    <h3 class="text-center">Programming Languages & Tools</h3>
+                </div>
+                <div class="row pe-xxl-5 text-center">
+                    <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <img src="https://i.postimg.cc/Tw9VfqRF/icons8-html-240.png" class="" alt="html">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="https://i.postimg.cc/g0cR4LyK/icons8-css-240.png" class="" alt="css">
+                    </li>
+                    <li class="list-inline-item">
+                        <img src="https://i.postimg.cc/HLBWJvj9/icons8-excel-240.png" class="" alt="excel">
+                    </li>
+                </div>
+          </section>
 
-      </main>
-      <footer class="container-fluid">
-      </footer>
+          <!-- Testimonials -->
+          <section class="container" id="testimonials">
+            <div class="py-5 text-center">
+                <h1 class="text-warning-emphasis">Testimonials</h1>
+            </div>
+            <div class="row ps-5 ms-5">
+                <div class="card">
+                    <div class="card-body overflow-hidden w-100 h-100 position-relative">
+                        <img src="https://i.postimg.cc/fySw0mLR/IMG-20231102-WA0013.jpg" class="w-100 h-100" alt="">
+                        <div class="info position-absolute w-100">
+                            <h3 class="text-warning">Caela Morgan Ward</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga no earum ipsam atque perspiciatis laborum nobis, unde delectus suscipit. Sequi adipisci, aliquid unde maiores dicta quo id a odio?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body overflow-hidden w-100 h-100 position-relative">
+                        <img src="https://i.postimg.cc/523yW250/3206095.jpg" class="w-100 h-100" alt="">
+                        <div class="info position-absolute w-100">
+                            <h3 class="text-warning">Joel Mukanya</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga non maiores earum ipsam atque perspiciatis laborum nobis, unde delectus suscipit. Sequi adipisci, aliquid unde maiores dicta quo id a odio?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body overflow-hidden w-100 h-100 position-relative">
+                        <img src="img/img3.jpg" class="w-100 h-100" alt="">
+                        <div class="info position-absolute w-100">
+                            <h3 class="text-warning">Joel Mukanya</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga non maiores earum ipsam atque perspiciatis laborum nobis, unde delectus suscipit. Sequi adipisci, aliquid unde maiores dicta quo id a odio?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body overflow-hidden w-100 h-100 position-relative">
+                        <img src="img/img3.jpg" class="w-100 h-100" alt="">
+                        <div class="info position-absolute w-100">
+                            <h3 class="text-warning">Joel Mukanya</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga non maiores earum ipsam atque perspiciatis laborum nobis, unde delectus suscipit. Sequi adipisci, aliquid unde maiores dicta quo id a odio?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body overflow-hidden w-100 h-100 position-relative">
+                        <img src="img/img3.jpg" class="w-100 h-100" alt="">
+                        <div class="info position-absolute w-100">
+                            <h3 class="text-warning">Joel Mukanya</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga non maiores earum ipsam atque perspiciatis laborum nobis, unde delectus suscipit. Sequi adipisci, aliquid unde maiores dicta quo id a odio?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body overflow-hidden w-100 h-100 position-relative">
+                        <img src="img/img3.jpg" class="w-100 h-100" alt="">
+                        <div class="info position-absolute w-100">
+                            <h3 class="text-warning">Joel Mukanya</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga non maiores earum ipsam atque perspiciatis laborum nobis, unde delectus suscipit. Sequi adipisci, aliquid unde maiores dicta quo id a odio?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact -->
+        <section class="container mt-5 pt-5" id="contact">
+            <div class="py-5 text-center">
+                <h1 class="text-warning-emphasis">Contact Me</h1>
+            </div>
+            
+
+        </section>
+            
+    </main>
+    <footer class="container-fluid">
+
+    </footer>
     <!-- Bootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
