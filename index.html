@@ -42,6 +42,9 @@
                 <a class="nav-link text-dark" href="#education">EDUCATION</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link text-dark" href="#skills">SKILLS</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link text-dark" href="#testimonials">TESTIMONIALS</a>
               </li>
               <li class="nav-item">
@@ -56,14 +59,19 @@
       <main class="container" id="container">
         <section class="container-fluid" id="home">
           <div class="row main-section">
-            <div class="col-md-6">
-              <h3>Hi I'm</h3>
+            <div class="align-items-center">
+              <!-- <h3>Hi I'm</h3>
               <h1>Tashreeq Lee</h1>
-              <h2>I'm an aspiring full stack developer.</h2>
+              <h2>I'm an aspiring full stack developer.</h2> -->
             </div>
             <div class="col-md-6">
                 <div id="animation">
                     <img src="https://i.postimg.cc/GhW9PbFG/IMG-6945-1.jpg" class="animated bounce infinite rounded-pill" alt="Tashreeq img" id="animated-img1">
+                </div>
+                <div class="row-cols-1 mt-5">
+                    <h3>Hi I'm</h3>
+              <h1>Tashreeq Lee</h1>
+              <h2>I'm an aspiring full stack developer.</h2>
                 </div>
             </div>
           </div>
@@ -73,10 +81,7 @@
       <!-- About Section -->
       <section class="container mt-5 pt-5" id="about">
         <div class="row">
-            <!-- <div class="col-6">
-                <img src="https://i.postimg.cc/XJx2qkfb/IMG-1956.jpg" class="img-fluid rounded-5" alt="ME">
-            </div> -->
-            <div class=" text-dark text-center">
+            <div class=" text-dark text-center mt-5 about">
                 <h1 class="text-warning-emphasis">About Me</h1>
                 <h3 class="text-warning">More about me</h3>
                 <p>I am Tashreeq Lee all the way from Crawford, Cape town. I am an aspiring developer entering this journey and getting ready to become the best version of myself in this field.
@@ -88,9 +93,11 @@
     </section>
     <!-- Projects Section -->
     <section class="container mt-5 pt-5" id="projects">
-        <h1 class="text-center py-5 text-warning">Projects</h1>
-        <div class="row ps-5 ms-5">
-            <div class="col-md-4 mb-5">
+        <h1 class="text-center py-5 text-warning">PROJECTS</h1>
+        <div class="container">
+
+            <div class="row d-flex justify-content-center">
+                <div class="col d-flex justify-content-center mb-5">
                 <div class="card" style="width: 18rem;">
                     <img class="img-fluid card-img-top" src="https://i.postimg.cc/m2MFWjTt/Screenshot-2023-11-01-091007.png" alt="Calculator" style="height: 15rem;">
                     <div class="card-body">
@@ -107,7 +114,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-5">
+            <div class="col d-flex justify-content-center mb-5">
                 <div class="card" style="width: 18rem;">
                     <img class="img-fluid card-img-top" src="https://i.postimg.cc/cHfmMztP/Screenshot-2023-11-02-154851.png" alt="Keyboard" style="height: 15rem;">
                     <div class="card-body">
@@ -124,7 +131,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-5">
+            <div class="col d-flex justify-content-center mb-5">
                 <div class="card" style="width: 18rem;">
                     <img class="img-fluid card-img-top" src="https://i.postimg.cc/3J61wkHq/Screenshot-2023-11-01-085452.png" alt="E-commerce" style="height: 15rem;">
                     <div class="card-body">
@@ -141,7 +148,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-5">
+            <div class="col d-flex justify-content-center mb-5">
                 <div class="card" style="width: 18rem;">
                     <img class="img-fluid card-img-top" src="https://i.postimg.cc/J4nWHRpJ/Screenshot-2023-11-01-124728.png" alt="project 1" style="height: 15rem;">
                     <div class="card-body">
@@ -158,50 +165,50 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-5">
+            <div class="col d-flex justify-content-center mb-5">
                 <div class="card" style="width: 18rem;">
-                    <img class="img-fluid card-img-top" src="" alt="project 1" style="height: 15rem;">
+                    <img class="img-fluid card-img-top" src="https://i.postimg.cc/gJfGk980/Screenshot-2023-11-03-140740.png" alt="project 1" style="height: 15rem;">
                     <div class="card-body">
                         <h5 class="card-title text-warning">Netflix Clone</h5>
                         <p class="card-text">Netflix website clone using HTML and CSS
                         </p>
-                        <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+                        <a href="https://github.com/Tashreeqlee/netflixExample.git" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
                             <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457"/>
                         </svg>  Github</a>
-                        <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                        <a href="https://netflix-example-green.vercel.app/" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
                             <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
                             <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
                         </svg>Vercel</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-5">
+            <div class="col d-flex justify-content-center mb-5">
                 <div class="card" style="width: 18rem;">
-                    <img class="img-fluid card-img-top" src="" alt="e-commerce" style="height: 15rem;">
+                    <img class="img-fluid card-img-top" src="https://i.postimg.cc/9QtZYV4T/Opera-Snapshot-2023-11-02-220929-127-0-0-1.png" alt="e-commerce" style="height: 15rem;">
                     <div class="card-body">
-                        <h5 class="card-title text-warning">E-commerce Website</h5>
-                        <p class="card-text">E-commerce website made with HTML and CSS.</p>
-                        <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
+                        <h5 class="card-title text-warning">Mobi Care Website Clone</h5>
+                        <p class="card-text">Mobi-care website clone made with HTML and CSS.</p>
+                        <a href="https://github.com/Tashreeqlee/projectWeek1.git" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-git" viewBox="0 0 16 16">
                             <path d="M15.698 7.287 8.712.302a1.03 1.03 0 0 0-1.457 0l-1.45 1.45 1.84 1.84a1.223 1.223 0 0 1 1.55 1.56l1.773 1.774a1.224 1.224 0 0 1 1.267 2.025 1.226 1.226 0 0 1-2.002-1.334L8.58 5.963v4.353a1.226 1.226 0 1 1-1.008-.036V5.887a1.226 1.226 0 0 1-.666-1.608L5.093 2.465l-4.79 4.79a1.03 1.03 0 0 0 0 1.457l6.986 6.986a1.03 1.03 0 0 0 1.457 0l6.953-6.953a1.031 1.031 0 0 0 0-1.457"/>
                         </svg>  Github</a>
-                        <a href="#" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                        <a href="https://project-week1.vercel.app/" class="card-link btn btn-outline-warning btn-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
                             <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
                             <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
                         </svg>Vercel</a>
                     </div>
                 </div>
             </div>
+        </div>
         </section>
-
+        
         <!--Education page-->
-        <section class="container mt-5 pt-5" id="education">
-            <div class="container">
+        <section class="container pad" id="education">
               <div class="py-5 text-center">
-                  <h1 class="text-warning">Education</h1>
+                  <h1 class="text-warning">EDUCATION</h1>
               </div>
-              <div class="row ps-5 ms-5">
-                  <div class="col-md-4 mb-5">
-                      <div class="card" style="width: 18rem;">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+                  <div class="col d-flex justify-content-center">
+                      <div class="card">
                           <div class="card-body">
                               <h5 class="card-title text-center text-warning py-2">Alexander Sinton High School</h5>
                               <p>I completed Matric in 2020 and went on to pass with a Bachelors Degree.</p>
@@ -209,8 +216,8 @@
                           </div>
                       </div>
                   </div>
-                  <div class="col-md-4 mb-5">
-                    <div class="card" style="width: 18rem;">
+                  <div class="col d-flex justify-content-center">
+                      <div class="card">
                         <div class="card-body">
                             <h5 class="card-title text-center text-warning py-2">Life Choices Academy</h5>
                             <p>I started my coding journey at Life Choices Academy September 2023.</p>
@@ -218,119 +225,148 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-5">
-                  <div class="card" style="width: 18rem;">
-                      <div class="card-body">
-                          <h5 class="card-title text-center text-warning py-2">Free Code Camp</h5>
-                          <p>I studied coding on Free Code Camp from 2020 covid till 2022.</p>
-                          <img src="https://i.postimg.cc/bNydJjLG/freecodecamp.png" class="img-fluid" alt="FCC">
-                      </div>
-                  </div>
-              </div>
+                    <div class="col d-flex justify-content-center">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-warning py-2">Free Code Camp</h5>
+                                <p>I studied coding on Free Code Camp from 2020 covid till 2022.</p>
+                                <img src="https://i.postimg.cc/bNydJjLG/freecodecamp.png" class="img-fluid" alt="FCC">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Skills Page-->
+            <section class="container" id="skills">
               <div class="skills">
                 <div class="py-5 text-center">
-                    <h1 class="text-warning">Skills</h1>
+                    <h1 class="text-warning">SKILLS</h1>
                     <h3 class="text-center">Programming Languages & Tools</h3>
                 </div>
                 <div class="row pe-xxl-5 text-center">
                     <ul class="list-inline">
                     <li class="list-inline-item">
-                        <img src="https://i.postimg.cc/Tw9VfqRF/icons8-html-240.png" class="" alt="html">
+                        <img src="https://i.postimg.cc/Tw9VfqRF/icons8-html-240.png"  alt="html">
+                        <h2 class=ranking>Beginner</h2>
+                        <p class="text-center text-warning">Beginner level in HTML.</p>
                     </li>
                     <li class="list-inline-item">
-                        <img src="https://i.postimg.cc/g0cR4LyK/icons8-css-240.png" class="" alt="css">
+                        <img src="https://i.postimg.cc/g0cR4LyK/icons8-css-240.png"  alt="css">
+                        <h2 class="ranking">Beginner</h2>
+                        <p class="text-center text-warning">Beginner level in CSS.</p>
                     </li>
                     <li class="list-inline-item">
-                        <img src="https://i.postimg.cc/HLBWJvj9/icons8-excel-240.png" class="" alt="excel">
+                        <img src="https://i.postimg.cc/3N9QX631/icons8-bootstrap-240.png" alt="bootstrap">
+                        <h2 class="ranking">Beginner</h2>
+                        <p class="text-center text-warning">Beginner level in BOOTSTRAP.</p>
                     </li>
                 </div>
           </section>
 
           <!-- Testimonials -->
-          <section class="container" id="testimonials">
+          <section class="container mt-5" id="testimonials">
             <div class="py-5 text-center">
-                <h1 class="text-warning">Testimonials</h1>
+                <h1 class="text-warning">TESTIMONIALS</h1>
             </div>
-            <div class="row">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+                <div class="col d-flex justify-content-center">
+
+                    <div class="card">
+                        <div class="card-body overflow-hidden w-100 h-100 position-relative">
+                        <img src="https://i.postimg.cc/HkzvFP8c/DSC-0305.jpg" class="w-100 h-100" alt="">
+                        <div class="info position-absolute w-100">
+                            <h3 class="text-warning">Sipho Gcusa</h3>
+                            <p>Tashreeq Lee is always willing to help out anyone in need, no matter how big or small the task may be. He is also reliable, dependable and very organized. On top of all that, he has a great sense of humor and an outgoing personality that makes him easy to get along with.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="col d-flex justify-content-center">
+
+                <div class="card">
+                    <div class="card-body overflow-hidden w-100 h-100 position-relative">
+                        <img src="https://i.postimg.cc/G2DmMDg2/joel2.jpg" class="w-100 h-100" alt="">
+                        <div class="info position-absolute w-100">
+                            <h3 class="text-warning">Joel Mukanya</h3>
+                            <p>Tashreeq is a creative, and well-behaved individual who always prioritizes his work. He excels in collaborating with others and has gained proficiency in HTML5, CSS, and Bootstrap. Including Git and GitHub.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="col d-flex justify-content-center">
+
                 <div class="card">
                     <div class="card-body overflow-hidden w-100 h-100 position-relative">
                         <img src="https://i.postimg.cc/fySw0mLR/IMG-20231102-WA0013.jpg" class="w-100 h-100" alt="">
                         <div class="info position-absolute w-100">
                             <h3 class="text-warning">Caela Morgan Ward</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga no earum ipsam atque perspiciatis laborum nobis, unde delectus suscipit. Sequi adipisci, aliquid unde maiores dicta quo id a odio?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body overflow-hidden w-100 h-100 position-relative">
-                        <img src="https://i.postimg.cc/523yW250/3206095.jpg" class="w-100 h-100" alt="">
-                        <div class="info position-absolute w-100">
-                            <h3 class="text-warning">Joel Mukanya</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga non maiores earum ipsam atque perspiciatis laborum nobis, unde delectus suscipit. Sequi adipisci, aliquid unde maiores dicta quo id a odio?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body overflow-hidden w-100 h-100 position-relative">
-                        <img src="img/img3.jpg" class="w-100 h-100" alt="">
-                        <div class="info position-absolute w-100">
-                            <h3 class="text-warning">Joel Mukanya</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga non maiores earum ipsam atque perspiciatis laborum nobis, unde delectus suscipit. Sequi adipisci, aliquid unde maiores dicta quo id a odio?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body overflow-hidden w-100 h-100 position-relative">
-                        <img src="img/img3.jpg" class="w-100 h-100" alt="">
-                        <div class="info position-absolute w-100">
-                            <h3 class="text-warning">Joel Mukanya</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga non maiores earum ipsam atque perspiciatis laborum nobis, unde delectus suscipit. Sequi adipisci, aliquid unde maiores dicta quo id a odio?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body overflow-hidden w-100 h-100 position-relative">
-                        <img src="img/img3.jpg" class="w-100 h-100" alt="">
-                        <div class="info position-absolute w-100">
-                            <h3 class="text-warning">Joel Mukanya</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga non maiores earum ipsam atque perspiciatis laborum nobis, unde delectus suscipit. Sequi adipisci, aliquid unde maiores dicta quo id a odio?</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body overflow-hidden w-100 h-100 position-relative">
-                        <img src="img/img3.jpg" class="w-100 h-100" alt="">
-                        <div class="info position-absolute w-100">
-                            <h3 class="text-warning">Joel Mukanya</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga non maiores earum ipsam atque perspiciatis laborum nobis, unde delectus suscipit. Sequi adipisci, aliquid unde maiores dicta quo id a odio?</p>
+                            <p>Tashreeq Lee is an incredibly hard worker, and always goes above and beyond to ensure that his duties are completed accurately and with the highest degree of quality.He is also a great communicator, always taking the time to explain complex concepts in a clear manner.</p>
                         </div>
                     </div>
                 </div>
             </div>
+             <div class="col d-flex justify-content-center">
+
+                <div class="card">
+                    <div class="card-body overflow-hidden w-100 h-100 position-relative">
+                        <img src="https://i.postimg.cc/YSMFS12F/IMG-20211025-134530-422.jpg" class="w-100 h-100" alt="">
+                        <div class="info position-absolute w-100">
+                            <h3 class="text-warning">Damon Raffels</h3>
+                            <p>Tashreeq is a dedicated individual with strong work ethics and exceptional people skills. He is approachable, always has a smile on his face and is always willing to help. He has a strong passion to develop himself and his skills as a developer and will be an asset to any workforce.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="col d-flex justify-content-center">
+                
+                <div class="card">
+                    <div class="card-body overflow-hidden w-100 h-100 position-relative">
+                        <img src="https://i.postimg.cc/Y0P9bwQ6/228.jpg" class="w-100 h-100" alt="">
+                        <div class="info position-absolute w-100">
+                            <h3 class="text-warning">Jay-donn Hendricks</h3>
+                            <p>Tashreeq Lee is a hardworking and dedicated team member who always puts the needs of the team first.He is always willing to lend a helping hand and provide support to his colleagues when needed.He is an excellent problem solver who consistently comes up with creative solutions to difficult problems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <div class="col d-flex justify-content-center">
+
+                <div class="card">
+                    <div class="card-body overflow-hidden w-100 h-100 position-relative">
+                        <img src="https://i.postimg.cc/vZf8cB0w/123797834-1261035710918912-522409709150677968-n.jpg" class="w-100 h-100" alt="">
+                        <div class="info position-absolute w-100">
+                            <h3 class="text-warning">Natasha Kapeyi</h3>
+                            <p>Working with Tashreeq Lee has yielded positive outcomes, ensures that a task on hand is done effectively and a great deal of laughter, as he is a person who effortlessly interacts in with everyone. He has flawless interpersonal skills and can swiftly adjust to any environment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </section>
 
 
         <!-- Contact -->
         <section class="container mt-5 pt-5" id="contact">
             <div class="py-5 text-center">
-                <h1 class="text-warning">Contact Me</h1>
+                <h1 class="text-warning">CONTACT ME</h1>
             </div>
-            <form action="https://formspree.io/f/xqkvjpby" method="POST">
+            
             <section class="mb-4">
                 <p class="text-center w-responsive mx-auto mb-5">Feel free to contact me for any enquiries.</p>
                 <div class="row">
                     <div class="col-md-9 mb-md-0 mb-5">
-                        <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <form action="https://formspree.io/f/xqkvjpby"  target="_blank"  method="POST">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="md-form mb-0">
-                                        <input type="text" id="name" name="name" class="form-control">
+                                        <input type="text" id="name" name="name" class="form-control" required>
                                         <label for="name" class="">Your name</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="md-form mb-0">
-                                        <input type="text" id="email" name="email" class="form-control">
+                                        <input type="text" id="email" name="email" class="form-control" required>
                                         <label for="email" class="">Your email</label>
                                     </div>
                                 </div>
@@ -338,7 +374,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="md-form mb-0">
-                                        <input type="text" id="subject" name="subject" class="form-control">
+                                        <input type="text" id="subject" name="subject" class="form-control" required>
                                         <label for="subject" class="">Subject</label>
                                     </div>
                                 </div>
@@ -347,17 +383,16 @@
                                 <div class="col-md-12">
             
                                     <div class="md-form">
-                                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                        <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" required></textarea>
                                         <label for="message">Your message</label>
                                     </div>
-            
+                                    <div class="text-center text-md-left">
+                                        <input type="submit" class="btn btn-primary" value="Submit">
+                                    </div>
                                 </div>
                             </div>
                         </form>
-                        <div class="text-center text-md-left">
-                            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-                        </div>
-                        <div class="status"></div>
+                        
                     </div>
                     <div class="col-md-3 text-center">
                         <ul class="list-unstyled mb-0">
@@ -387,9 +422,9 @@
             
     </main>
     <!-- Footer -->
-    <footer class="container-fluid">
+    <footer class="container-fluid" id="footer">
         <div class="container">
-            <footer class="container-fluid text-center mt-5">
+            <footer class="container-fluid text-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle-fill" viewBox="0 0 16 16">
                     <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM8.146 4.992c.961 0 1.641.633 1.729 1.512h1.295v-.088c-.094-1.518-1.348-2.572-3.03-2.572-2.068 0-3.269 1.377-3.269 3.638v1.073c0 2.267 1.178 3.603 3.27 3.603 1.675 0 2.93-1.02 3.029-2.467v-.093H9.875c-.088.832-.75 1.418-1.729 1.418-1.224 0-1.927-.891-1.927-2.461v-1.06c0-1.583.715-2.503 1.927-2.503Z"/>
                   </svg>
